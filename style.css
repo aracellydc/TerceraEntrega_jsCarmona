@@ -1,0 +1,82 @@
+h2{
+    color: brown;
+}
+
+p{
+    color: rgba(102, 41, 41, 0.953);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+/*reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 6px;
+}
+
+/*ENCABEZADO*/
+.encabezado {
+    background-color: rgba(13, 151, 87, 0.789);
+    padding: 8px 30px;
+}
+.encabezado .collapse {
+    width: 900px;
+    flex-wrap: wrap;
+}
+.encabezado .navbar-nav {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+.encabezado .navbar-nav a:hover {
+    color: rgb(110, 4, 4);
+}
+
+.container_p{
+    background-color: rgba(0, 0, 0, 0.47);
+    text-align: center;
+    padding: 10px;
+}
+
+.container_pp{
+    background-color: rgba(0, 0, 0, 0.47);
+    text-align: center;
+    padding: 20px;
+}
+
+.relacion-frutas{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.tarjeta-fruta{
+margin: 30px;
+}
+
+.mainfondo{
+    background-image: url("./img/main.jpg");
+    background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
+    background-repeat: no-repeat; /* Evita que se repita la imagen */
+    background-position: center center;
+}
+
+.tarjeta-fruta{
+    text-align: center;
+}
